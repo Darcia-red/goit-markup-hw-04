@@ -20,14 +20,14 @@
 .container-nav {
   display: flex;
   justify-content: flex-end;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
-.header {
+header {
   background-color: var(white);
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 a:hover {
   color: var(--blue);
@@ -90,6 +90,16 @@ a:focus {
   display: flex;
   align-items: center;
 }
+.envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
 hr {
   border: 0;
   clear: both;
@@ -116,19 +126,6 @@ hr {
   background: var(--deep-blue);
   padding-top: 200px;
   padding-bottom: 200px;
-}
-.bg-wrapper-gradient {
-  display: block;
-  background-image: linear-gradient(
-      90deg,
-      rgba(47, 48, 58, 0.4) 50%,
-      rgba(47, 48, 58, 0.4) 100%
-    ),
-    url(../img/hero.png);
-  background-repeat: no-repeat;
-  max-width: 1600px;
-  height: auto;
-  object-fit: cover;
 }
 
 .service-button {
@@ -217,10 +214,10 @@ hr {
 .team {
   background: #f5f4fa;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .team-title {
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -272,6 +269,30 @@ hr {
   padding-bottom: 30px;
 
   color: var(--grey);
+}
+.social-icon-list {
+  display: flex;
+  justify-content: center;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(-);
+}
+.team-social-icons :not(:last-child) {
+  margin-right: 10px;
+}
+.social-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--white);
+  border-radius: 50%;
+}
+.social-icon-link:hover .social-icon {
+  fill: var(--blue);
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -393,6 +414,73 @@ hr {
   text-align: flex-start;
   color: var(--grey);
 }
+.bg-wrapper-gradient {
+  display: block;
+  background-image: linear-gradient(
+      90deg,
+      rgba(47, 48, 58, 0.4) 50%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("../img/hero.png");
+}
+.fouricons {
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 30px;
+}
+.fouricons-icon {
+  width: 70px;
+  height: 70px;
+}
+.permanent-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.permanent-clients-flex {
+  display: flex;
+}
+.permanent-clients-logo1 {
+  width: 45px;
+  height: 50px;
+}
+.permanent-clients-logo2 {
+  width: 40px;
+  height: 52px;
+}
+.permanent-clients-logo3 {
+  width: 41px;
+  height: 43px;
+}
+.permanent-clients-logo4 {
+  width: 80px;
+  height: 42px;
+}
+.permanent-clients-logo5 {
+  width: 53px;
+  height: 47px;
+}
+
+.permanent-clients-logo6 {
+  width: 89px;
+  height: 45px;
+}
+.permanent-clients-li {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .footer-join-ruler {
   margin-top: 12px;
 }
@@ -415,8 +503,23 @@ hr {
 .footer-flex-list {
   margin-right: 70px;
 }
-.social-icons {
-  width: 20px;
-  height: 20px;
+.footer-social-icon-list {
   margin-right: 10px;
+  width: 44px;
+  height: 44px;
+}
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.footer-social-item {
+  fill: var(--white);
+}
+.footer-social-link:hover .footer-social-item {
+  fill: var(--blue);
 }
