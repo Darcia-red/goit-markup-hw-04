@@ -86,6 +86,7 @@ a:focus {
   color: var(--grey);
   margin-right: 50px;
 }
+
 .header-contacts-align {
   display: flex;
   align-items: center;
@@ -94,6 +95,7 @@ a:focus {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: var(--blue);
 }
 .smartphone {
   width: 10px;
@@ -277,7 +279,7 @@ hr {
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: var(-);
+  fill: #afb1b8;
 }
 .team-social-icons :not(:last-child) {
   margin-right: 10px;
@@ -291,8 +293,11 @@ hr {
   background-color: var(--white);
   border-radius: 50%;
 }
+.social-icon-link:hover {
+  background-color: var(--blue);
+}
 .social-icon-link:hover .social-icon {
-  fill: var(--blue);
+  fill: var(--white);
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -517,9 +522,13 @@ hr {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
+.footer-social-link:hover {
+  background-color: var(--blue);
+}
+
 .footer-social-item {
   fill: var(--white);
 }
 .footer-social-link:hover .footer-social-item {
-  fill: var(--blue);
+  fill: var(--white);
 }
