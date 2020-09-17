@@ -86,7 +86,9 @@ a:focus {
   color: var(--grey);
   margin-right: 50px;
 }
-
+.contacts-link:hover .envelope {
+  fill: var(--blue);
+}
 .header-contacts-align {
   display: flex;
   align-items: center;
@@ -95,12 +97,16 @@ a:focus {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: #757575;
+}
+.contacts-link:hover .smartphone {
   fill: var(--blue);
 }
 .smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: #757575;
 }
 hr {
   border: 0;
@@ -394,6 +400,10 @@ hr {
   flex-basis: calc(100% - 3 * 30px) / 3;
   border: 1px solid #eeeeee;
 }
+.card-set-works-list-item :hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 .portfolio-title {
   font-family: "Roboto", sans-serif;
@@ -453,27 +463,51 @@ hr {
 .permanent-clients-logo1 {
   width: 45px;
   height: 50px;
+  fill: #afb1b8;
 }
 .permanent-clients-logo2 {
   width: 40px;
   height: 52px;
+  fill: #afb1b8;
 }
 .permanent-clients-logo3 {
   width: 41px;
   height: 43px;
+  fill: #afb1b8;
 }
 .permanent-clients-logo4 {
   width: 80px;
   height: 42px;
+  fill: #afb1b8;
 }
 .permanent-clients-logo5 {
   width: 53px;
   height: 47px;
+  fill: #afb1b8;
 }
 
 .permanent-clients-logo6 {
   width: 89px;
   height: 45px;
+  fill: #afb1b8;
+}
+.permanent-clients-logo1:hover {
+  fill: var(--blue);
+}
+.permanent-clients-logo2:hover {
+  fill: var(--blue);
+}
+.permanent-clients-logo3:hover {
+  fill: var(--blue);
+}
+.permanent-clients-logo4:hover {
+  fill: var(--blue);
+}
+.permanent-clients-logo5:hover {
+  fill: var(--blue);
+}
+.permanent-clients-logo6:hover {
+  fill: var(--blue);
 }
 .permanent-clients-li {
   width: 170px;
@@ -485,6 +519,9 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.permanent-clients-li:hover {
+  border: 1px solid var(--blue);
 }
 .footer-join-ruler {
   margin-top: 12px;
