@@ -494,24 +494,25 @@ hr {
   height: 45px;
   fill: #afb1b8;
 }
-.permanent-clients-logo1:hover {
+.permanent-clients-li:hover .permanent-clients-logo1 {
   fill: var(--blue);
 }
-.permanent-clients-logo2:hover {
+.permanent-clients-li:hover .permanent-clients-logo2 {
   fill: var(--blue);
 }
-.permanent-clients-logo3:hover {
+.permanent-clients-li:hover .permanent-clients-logo3 {
   fill: var(--blue);
 }
-.permanent-clients-logo4:hover {
+.permanent-clients-li:hover .permanent-clients-logo4 {
   fill: var(--blue);
 }
-.permanent-clients-logo5:hover {
+.permanent-clients-li:hover .permanent-clients-logo5 {
   fill: var(--blue);
 }
-.permanent-clients-logo6:hover {
+.permanent-clients-li:hover .permanent-clients-logo6 {
   fill: var(--blue);
 }
+
 .permanent-clients-li {
   width: 170px;
   height: 90px;
@@ -524,6 +525,7 @@ hr {
   align-items: center;
 }
 .permanent-clients-li:hover {
+  background-color: #ffffff;
   border: 1px solid var(--blue);
 }
 .footer-join-ruler {
