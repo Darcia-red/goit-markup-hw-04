@@ -400,7 +400,7 @@ hr {
   flex-basis: calc(100% - 3 * 30px) / 3;
   border: 1px solid #eeeeee;
 }
-.card-set-works-list-item :hover {
+.card-set-works-list-item:hover {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -428,6 +428,9 @@ hr {
   padding-left: 24px;
   text-align: flex-start;
   color: var(--grey);
+}
+.card-set-works-list-img {
+  width: 100%;
 }
 .bg-wrapper-gradient {
   display: block;
